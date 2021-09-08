@@ -1,0 +1,8 @@
+/* Write your code here. */
+.thumbnail {
+  opacity: 0.5;
+  margin: 10px;
+}
+.thumbnail-active {
+  opacity: 1;
+}

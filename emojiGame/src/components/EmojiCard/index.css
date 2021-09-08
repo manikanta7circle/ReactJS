@@ -1,0 +1,22 @@
+/* Write your code here. */
+.emoji {
+  background-color: #ffffff33;
+  border: 2px solid #ffffff30;
+  padding: 20px;
+  margin: 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.emoji-image {
+  height: 80px;
+  width: 80px;
+}
+@media (max-width: 576px) {
+  .emoji {
+    padding: 10px;
+  }
+  .emoji-image {
+    height: 50px;
+    width: 50px;
+  }
+}

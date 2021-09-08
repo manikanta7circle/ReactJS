@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.page-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  padding: 10px;
+}
+
+.top-container {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f1f5f9;
+  border-radius: 5px;
+  padding: 10px;
+}
+.search-input {
+  border: 0px;
+  background-color: transparent;
+  outline: none;
+}
+.image-icon {
+  height: 20px;
+  width: 20px;
+}
+.list-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .top-container {
+    justify-content: start;
+    align-items: flex-start;
+  }
+}

@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.main-container {
+  background-color: #ffffff;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  background-color: #150b3e;
+}
+.profile {
+}
+.profile-icon {
+}
+.profile-name {
+}
+.balance-content {
+}
+.your-balance {
+}
+.balance-container {
+}
+.balance {
+}
+.in-rupees {
+}
+.withdraw-container {
+}
+.withdraw {
+}
+.description {
+}
+.list-container {
+}

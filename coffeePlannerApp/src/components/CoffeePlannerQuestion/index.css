@@ -1,0 +1,12 @@
+/* Write your code here. */
+.options-container {
+  list-style-type: none;
+  padding: 0px;
+}
+@media (min-width: 768px) {
+  .options-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}

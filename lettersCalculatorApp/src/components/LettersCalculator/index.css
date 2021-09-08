@@ -1,0 +1,29 @@
+/* Write your code here. */
+.bg-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.watch-image {
+  height: 600px;
+  width: 300px;
+}
+.main-container {
+}
+.content-container {
+}
+.heading {
+}
+
+.para {
+}
+.search-input {
+}
+.result-container {
+}
+.result {
+}

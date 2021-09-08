@@ -1,0 +1,65 @@
+/* Write your code here. */
+.score-card {
+  padding: 20px;
+  border-radius: 20px;
+  border: 2px solid #ffffff30;
+  background-color: #ffffff33;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+}
+.sore-and-status-section {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+.player-status {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+}
+.score-status {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0px;
+}
+.score {
+  color: #6a59ff;
+  font-size: 35px;
+  font-weight: bold;
+}
+.play-again-button {
+  color: #3d3d3d;
+  background-color: #ffce27;
+  border: 0px;
+  border-radius: 10px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  padding: 20px;
+}
+@media (max-width: 767px) {
+  .score-card {
+    flex-direction: column;
+  }
+  .sore-and-status-section {
+    order: 1;
+  }
+  .image-section {
+    order: 0;
+  }
+}
+@media (max-width: 576px) {
+  .score-card {
+    width: 100%;
+  }
+  .result-image {
+    width: 100%;
+  }
+}

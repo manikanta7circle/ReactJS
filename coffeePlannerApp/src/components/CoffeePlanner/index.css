@@ -1,0 +1,80 @@
+/* Write your code here. */
+.page-container {
+  min-height: 100vh;
+}
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/coffee-planner-bg.png');
+  height: 30vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.top-text-container {
+  width: 100%;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  align-self: flex-start;
+}
+.description {
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.main-container {
+  padding: 20px;
+}
+.selected-value {
+  color: #0e8684;
+}
+.summary {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.summary-container {
+  border-radius: 20px;
+  padding: 20px;
+  background-color: #1e293b;
+  margin: 10px;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    height: 40vh;
+  }
+  .top-text-container {
+    width: 40vw;
+    align-self: flex-end;
+  }
+}
+
+.questions-container {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.create-button {
+  background-color: #0e8684;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+}
+
+.bottom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.list-item {
+}
+.suggestion-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.suggestion {
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+}

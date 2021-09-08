@@ -1,0 +1,33 @@
+/* Write you CSS here */
+.filters-container-section {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.label-text {
+  color: #9aa5b1;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.select-input {
+  border-width: 2px;
+  border-style: solid;
+  border-color: #9aa5b1;
+  border-radius: 8px;
+  margin: 5px;
+  outline: none;
+  background-color: transparent;
+  padding: 8px;
+}
+
+.option-input {
+  font-size: 15px;
+}

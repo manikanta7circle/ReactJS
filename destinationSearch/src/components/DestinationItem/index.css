@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list-item {
+  margin: 10px;
+  width: 250px;
+}
+.desti {
+  display: flex;
+  flex-direction: column;
+}
+.desti-image {
+  height: 200px;
+  width: 250px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.img-name {
+  font-size: 20px;
+  font-family: 'Roboto';
+}

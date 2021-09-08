@@ -1,0 +1,15 @@
+/* Write your CSS code here */
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact-image {
+  height: 200px;
+  width: 200px;
+}
+.contact {
+  color: #6d396b;
+  font-size: 25px;
+}

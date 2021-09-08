@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#ffffff, #cffcf1, #ffffff);
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 8px 40px rgba(7, 7, 7, 0.08);
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.time-display-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.elapsed-time-container {
+  background-color: #ffffff;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.elapsed-time {
+  margin: 0px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #00d9f5;
+}
+.timer-status {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+.timer-controller-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.timer-control-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  border: 0px;
+  outline: none;
+  margin: 10px;
+}
+.timer-control-icon {
+  height: 30px;
+  width: 30px;
+}
+.timer-control-label {
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.timer-limit-controller-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.limit-label {
+  font-family: 'Roboto';
+  font-size: 18px;
+}
+.timer-limit-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.limit-controller-button {
+  background-color: transparent;
+  font-size: 30px;
+  font-weight: bold;
+  border: 0px;
+  outline: none;
+  cursor: pointer;
+  margin: 15px;
+}
+.limit-value-container {
+  background-image: linear-gradient(to right, #defafe, #00d9f5);
+  height: 50px;
+  width: 80px;
+  padding: 15px;
+  align-items: center;
+}
+.limit-value {
+  margin: 0px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .time-display-section {
+    height: 500px;
+    width: 500px;
+  }
+}

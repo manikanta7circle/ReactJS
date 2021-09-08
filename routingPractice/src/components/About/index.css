@@ -1,0 +1,15 @@
+/* Write your CSS code here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about {
+  color: #6d396b;
+  font-size: 25px;
+}
+.about-image {
+  height: 200px;
+  width: 200px;
+}

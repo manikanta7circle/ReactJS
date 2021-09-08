@@ -1,0 +1,9 @@
+/* Write your CSS code here */
+.blogs-container {
+  width: 100%;
+  padding: 10px;
+}
+.blog-list-container {
+  list-style-type: none;
+  padding: 0px;
+}

@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  background-color: #000000;
+}
+.card2 {
+  background-color: #ffffff;
+}
+.card {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  align-items: center;
+}
+.button {
+  padding: 8px;
+  width: 120px;
+  border-radius: 5px;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: bold;
+}
+.b {
+  text-align: center;
+}
+.head1 {
+  color: #ffffff;
+}
+.head2 {
+  color: #000000;
+}

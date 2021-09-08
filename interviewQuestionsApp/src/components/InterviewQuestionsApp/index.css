@@ -1,0 +1,45 @@
+/* Write you CSS here */
+.page-container {
+  min-height: 100vh;
+}
+.bg-container {
+  min-height: 30vh;
+  background-image: radial-gradient(#180d5b, #2b237c);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Playfair Display';
+  margin: 10px;
+  text-align: center;
+}
+.bg-image {
+  height: 300px;
+  width: 350px;
+  margin: 10px;
+}
+.main-container {
+  padding: 20px;
+}
+
+.main-section {
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

@@ -1,0 +1,36 @@
+/* Write your code here. */
+.page-container {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9796f0, #fbc7d4);
+  background-size: cover;
+}
+.main-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.emojis-container {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.Note-container {
+  padding: 20px;
+}
+.Note {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .emojis-container {
+    width: 50vw;
+  }
+}

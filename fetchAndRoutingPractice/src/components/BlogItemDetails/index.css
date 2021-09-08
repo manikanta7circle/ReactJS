@@ -1,0 +1,17 @@
+/* Write your CSS code here */
+.blog-info {
+  padding: 30px;
+}
+.avatar-blog-image {
+  height: 50px;
+  width: 50px;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.avatar-container{
+    display: flex;
+    flex-direction: row;
+}

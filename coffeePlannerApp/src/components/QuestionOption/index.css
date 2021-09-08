@@ -1,0 +1,47 @@
+/* Write your code here. */
+.option-container {
+  margin: 10px;
+}
+.button {
+  border-radius: 15px;
+  background-color: #f4f1ea;
+  padding: 20px;
+  border-width: 0px;
+  outline: none;
+  cursor: pointer;
+  width: 100%;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cup-icon {
+  height: 50px;
+  width: 50px;
+}
+.option-description {
+  color: #64748b;
+  font-size: 18px;
+  font-family: 'Roboto';
+  text-align: left;
+}
+.option-title {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.button-selected {
+  background-color: #0e8684;
+}
+.option-title-selected {
+  color: #ffffff;
+}
+.option-selected-description {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .button {
+    width: 30vw;
+  }
+}

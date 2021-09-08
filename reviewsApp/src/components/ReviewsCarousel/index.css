@@ -1,0 +1,32 @@
+/* Write your code here */
+.bg-container {
+  min-height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reviews-bg.png');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.text-container {
+  text-align: center;
+  width: 500px;
+}

@@ -1,0 +1,11 @@
+/* Write your CSS code here */
+.blog-container {
+  padding: 10px;
+  border-bottom: 2px solid #9aa5b1;
+}
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

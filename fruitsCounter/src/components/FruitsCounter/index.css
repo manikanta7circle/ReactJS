@@ -1,0 +1,51 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 40px;
+}
+.card {
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.heading {
+  color: #000000;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.count {
+  color: #ffd569;
+}
+.fruits-container {
+  display: flex;
+  flex-direction: column;
+}
+.fruit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 400px;
+  width: 200px;
+}
+.button1 {
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-width: 0px;
+}
+
+@media (min-width: 768px) {
+  .fruits-container {
+    flex-direction: row;
+  }
+}
