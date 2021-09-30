@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.status-image {
+  height: 300px;
+  width: 300px;
+  align-self: center;
+}
+.register-button {
+  padding: 10px;
+  background-color: #0967d2;
+  border-radius: 10px;
+  color: #ffffff;
+  border: 0px;
+  cursor: pointer;
+}

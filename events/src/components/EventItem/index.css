@@ -1,0 +1,32 @@
+/* Write your CSS here */
+.event-item {
+  margin: 10px;
+  padding: 10px;
+}
+
+.image-button {
+  border: 0px;
+  background-color: #3a4b63;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.image-a-button {
+  border: solid 2px #2dd4bf;
+  background-color: #3a4b63;
+  padding: 0px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.event-image {
+  height: 100px;
+  width: 150px;
+  border-radius: 10px;
+}
+.event-name {
+  color: #ffffff;
+  font-weight: bold;
+}
+.event-location {
+  color: #ffffff;
+}

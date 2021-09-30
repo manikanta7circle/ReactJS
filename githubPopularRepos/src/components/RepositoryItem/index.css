@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.repos-item-card {
+  width: 220px;
+  list-style-type: none;
+  background-color: #f8f8ff;
+  margin: 10px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.repos-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.repos-avatar {
+  height: 80px;
+  width: 80px;
+}
+.repos-name {
+  font-size: 20px;
+  color: #e73959;
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}

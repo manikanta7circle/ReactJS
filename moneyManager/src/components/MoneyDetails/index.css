@@ -1,0 +1,50 @@
+/* Write your CSS here */
+.money-details-container {
+  list-style-type: none;
+  padding: 0px;
+}
+.card {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  margin: 10px;
+}
+.image {
+  height: 80px;
+  width: 80px;
+}
+.bg-card1 {
+  background-color: #ecfccb;
+  border: solid 1px #84cc16;
+}
+
+.bg-card2 {
+  background-color: #cffafe;
+  border: solid 1px #06b6d4;
+}
+
+.bg-card3 {
+  background-color: #ede9fe;
+  border: solid 1px #7c3aed;
+}
+
+.title {
+  font-size: 20px;
+}
+.amount {
+  font-size: 25px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .money-details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .image {
+    margin-right: 20px;
+  }
+}

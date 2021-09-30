@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.appointmentItem {
+  padding: 10px;
+  border: solid 1px #b5b7c4;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.top {
+  margin: 0px;
+}
+.title {
+  font-size: 20px;
+}
+.icon-button {
+  background-color: #ffffff;
+  border: 0px;
+}
+.date-para {
+}

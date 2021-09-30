@@ -1,0 +1,12 @@
+.options-container {
+  color: #ffffff;
+  padding: 0px;
+  list-style-type: none;
+}
+.filter-heading {
+  color: #ffffff;
+  font-size: 18px;
+}
+.label-text {
+  margin-left: 10px;
+}

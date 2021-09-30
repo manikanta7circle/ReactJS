@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.nav-light {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  color: #000000;
+}
+.nav-dark {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: #ffffff;
+}
+.link-nav {
+  text-decoration: none;
+}
+.links-container {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  list-style-type: none;
+}
+.link-dark {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.link-light {
+  color: #000000;
+  margin-left: 10px;
+}
+.theme-button {
+  background-color: transparent;
+  border: 0px;
+}

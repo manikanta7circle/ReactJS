@@ -1,0 +1,73 @@
+/* Write your CSS here */
+.main-container {
+  min-height: 100vh;
+  padding: 40px;
+}
+.top-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.heading {
+  font-style: 'Roboto';
+  color: #475569;
+}
+.description {
+  color: #475569;
+}
+.m {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.bottom-container {
+  padding: 20px;
+}
+.transaction-container {
+  border: solid 1px #cbd5e1;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.transaction-history-container {
+  border: solid 1px #cbd5e1;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 10px;
+}
+.transaction-heading {
+  font-size: 25px;
+}
+.title-input-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-text {
+  color: #7e858e;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.input {
+  height: 15px;
+  padding: 10px;
+  border: solid 1px #7e858e;
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+  .top-container {
+    text-align: left;
+  }
+  .bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .transaction-heading {
+    font-size: 30px;
+  }
+}
